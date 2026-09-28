@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafaela Galvão — Estética, Spa & Massoterapia | Paraíso do Tocantins</title>
+  <meta name="description" content="Seu corpo pede pausa, sua mente pede descanso. Massoterapia terapêutica, ventosaterapia, limpeza de pele e protocolos corporais em Paraíso do Tocantins com Rafaela Galvão.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/profile.jpg">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rafaela Galvão — Estética & Massoterapia em Paraíso do Tocantins">
+  <meta property="og:description" content="Seu corpo pede pausa. Sua mente pede descanso. Venha viver uma experiência única de autocuidado e renovação.">
+  <meta property="og:image" content="assets/profile.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            botanical: {
+              bg: '#F4F7F5',
+              card: '#FFFFFF',
+              border: '#E1E9E4',
+              forest: '#264234',
+              forestHover: '#1B3126',
+              sage: '#8FA89B',
+              clay: '#C88A6E',
+              softGreen: '#EAF1ED',
+              dark: '#16241D'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-botanical-bg text-botanical-dark font-sans antialiased selection:bg-botanical-forest selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-botanical-forest text-botanical-bg text-xs py-2 px-4 text-center">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <span class="font-light tracking-wide">
+        🌿 Studio de Massoterapia & Estética Integrativa em Paraíso do Tocantins
+      </span>
+      <a href="https://bit.ly/49wSJlp" target="_blank" class="text-emerald-200 hover:text-white transition font-medium flex items-center gap-1.5">
+        <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> Agendamento de Sessão via WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-40 bg-botanical-bg/95 backdrop-blur-md border-b border-botanical-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="#inicio" class="flex items-center gap-3.5 group">
+        <img src="assets/profile.jpg" alt="Rafaela Galvão" class="w-12 h-12 rounded-full object-cover border-2 border-botanical-forest/30 shadow-sm group-hover:scale-105 transition duration-300">
+        <div>
+          <span class="block font-serif text-xl sm:text-2xl font-bold tracking-tight text-botanical-forest leading-none">
+            Rafaela Galvão
+          </span>
+          <span class="text-[11px] tracking-widest uppercase font-semibold text-botanical-clay block mt-1">
+            Estética & Massoterapia
+          </span>
+        </div>
+      </a>
+
+      <!-- MENU -->
+      <nav class="hidden md:flex items-center gap-8 text-xs uppercase tracking-wider font-semibold text-botanical-dark/80">
+        <a href="#experiencia" class="hover:text-botanical-forest transition">A Experiência</a>
+        <a href="#rituais" class="hover:text-botanical-forest transition">Rituais & Terapias</a>
+        <a href="#galeria" class="hover:text-botanical-forest transition">O Studio</a>
+        <a href="#contato" class="hover:text-botanical-forest transition">Agendamento</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="https://bit.ly/49wSJlp" target="_blank" class="inline-flex items-center gap-2 bg-botanical-forest hover:bg-botanical-forestHover text-white px-5 py-2.5 rounded-full text-xs font-bold tracking-wide transition duration-300 shadow-sm">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+        <span>Agendar Sessão</span>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="relative pt-10 pb-16 md:py-20 border-b border-botanical-border overflow-hidden">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- TEXTO HERO -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 bg-botanical-softGreen border border-botanical-forest/20 px-3.5 py-1.5 rounded-full text-xs font-bold text-botanical-forest">
+            <span>🍃 Seu momento sagrado de autocuidado</span>
+          </div>
+
+          <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-botanical-forest leading-tight font-medium">
+            Seu corpo pede pausa. <br class="hidden sm:inline">
+            Sua mente pede <em class="italic text-botanical-clay">descanso</em>.
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 font-light leading-relaxed max-w-xl mx-auto lg:mx-0">
+            Ambiente acolhedor, óleos essenciais puros, toques terapêuticos e protocolos que devolvem a leveza ao seu corpo e o brilho à sua pele em Paraíso do Tocantins.
+          </p>
+
+          <!-- BADGES SENSORIAIS -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-left">
+            <div class="bg-white p-3.5 rounded-2xl border border-botanical-border shadow-sm">
+              <span class="text-xs font-bold text-botanical-forest block">Ventosaterapia</span>
+              <span class="text-[11px] text-slate-500">Alívio de dores nas costas</span>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-botanical-border shadow-sm">
+              <span class="text-xs font-bold text-botanical-forest block">Massagem Relaxante</span>
+              <span class="text-[11px] text-slate-500">Aromaterapia completa</span>
+            </div>
+            <div class="bg-white p-3.5 rounded-2xl border border-botanical-border shadow-sm col-span-2 sm:col-span-1">
+              <span class="text-xs font-bold text-botanical-forest block">Limpeza Facial Glow</span>
+              <span class="text-[11px] text-slate-500">Extração suave e viço</span>
+            </div>
+          </div>
+
+          <!-- BOTÕES HERO -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-3">
+            <a href="https://bit.ly/49wSJlp" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-botanical-forest hover:bg-botanical-forestHover text-white font-bold text-sm px-8 py-3.5 rounded-full shadow-lg shadow-botanical-forest/20 transition transform hover:-translate-y-0.5">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Agendar Minha Sessão no WhatsApp</span>
+            </a>
+            <a href="#rituais" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-botanical-forest border border-botanical-border font-bold text-sm px-6 py-3.5 rounded-full transition">
+              <span>Conhecer Terapias</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- FOTO RETRATO HERO -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-sm lg:max-w-none">
+            <div class="absolute -inset-2 bg-gradient-to-tr from-botanical-forest/20 to-botanical-clay/30 rounded-3xl blur-md"></div>
+            
+            <div class="relative rounded-3xl overflow-hidden border border-botanical-border shadow-xl bg-white">
+              <img src="assets/post_4.jpg" alt="Rafaela Galvão Estética" class="w-full h-[420px] object-cover">
+              
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+              
+              <div class="absolute bottom-5 left-5 right-5 text-white">
+                <span class="text-[10px] tracking-wider uppercase font-bold text-emerald-300">Studio Rafaela Galvão</span>
+                <h3 class="font-serif font-bold text-xl">Estética & Massoterapia</h3>
+                <p class="text-xs text-slate-200 mt-0.5">Cuidando com carinho da sua autoestima</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RITUAIS & TERAPIAS -->
+  <section id="rituais" class="py-16 bg-white border-b border-botanical-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-botanical-forest bg-botanical-softGreen px-3 py-1 rounded-full">
+          Rituais de Cuidado
+        </span>
+        <h2 class="font-serif font-bold text-2xl sm:text-3xl text-botanical-forest">
+          Menu de Terapias e Protocolos
+        </h2>
+        <p class="text-slate-600 text-sm">
+          Cada sessão é um ritual personalizado para renovar suas energias e cuidar da sua beleza de forma suave e profunda.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- CARD 1 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="feather" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Massagem Relaxante com Aromas</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Manobras suaves e envolventes combinadas com óleos essenciais puros para dissolver o estresse, a ansiedade e relaxar a mente.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Relaxamento Profundo
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="flame" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Ventosaterapia Terapêutica</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Aumenta a circulação sanguínea, desfaz nódulos musculares e alivia dores crônicas na lombar, ombros e trapézio.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Alívio Imediato da Tensão
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Limpeza de Pele Profunda</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Remoção delicada de impurezas, controle de oleosidade e hidratação calmante, deixando sua pele radiante e com viço renovado.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Pele Limpa e Aveludada
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="droplets" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Drenagem Linfática Corporal</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Estímulo do sistema linfático para eliminar toxinas acumuladas, reduzir a retenção de líquidos e proporcionar leveza imediata.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Desinchaço e Leveza
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="flower" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Spa dos Pés & Esfoliação</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Imersão em sais aromáticos, esfoliação nutritiva e massagem podal para aliviar o cansaço dos pés após uma longa semana.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Revitalização Completa
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="bg-botanical-bg rounded-2xl p-6 border border-botanical-border hover:shadow-md transition">
+          <div class="w-10 h-10 rounded-xl bg-botanical-softGreen text-botanical-forest flex items-center justify-center mb-4">
+            <i data-lucide="heart" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-botanical-forest">Protocolos Personalizados</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Combinações sob medida pensadas para a sua necessidade de relaxamento, hidratação ou alívio muscular.
+          </p>
+          <div class="mt-4 pt-3 border-t border-botanical-border text-xs text-botanical-clay font-bold">
+            Experiência Sob Medida
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALERIA DO STUDIO -->
+  <section id="galeria" class="py-16 bg-botanical-bg border-b border-botanical-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-botanical-forest bg-botanical-softGreen px-3 py-1 rounded-full">
+            No Instagram
+          </span>
+          <h2 class="font-serif font-bold text-2xl sm:text-3xl text-botanical-forest mt-2">
+            Momentos e Bastidores do Studio
+          </h2>
+        </div>
+        <a href="https://instagram.com/rafaelagalvaoesteticistaa" target="_blank" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-botanical-forest hover:underline">
+          <i data-lucide="instagram" class="w-4 h-4"></i> Seguir @rafaelagalvaoesteticistaa
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="rounded-2xl overflow-hidden border border-botanical-border aspect-square group shadow-sm">
+          <img src="assets/post_1.jpg" alt="Studio Rafaela Galvão" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-botanical-border aspect-square group shadow-sm">
+          <img src="assets/post_2.jpg" alt="Studio Rafaela Galvão" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-botanical-border aspect-square group shadow-sm">
+          <img src="assets/post_3.jpg" alt="Studio Rafaela Galvão" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-botanical-border aspect-square group shadow-sm">
+          <img src="assets/post_5.jpg" alt="Studio Rafaela Galvão" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="contato" class="py-16 bg-white text-center">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 space-y-6">
+      <div class="w-12 h-12 rounded-full bg-botanical-softGreen text-botanical-forest flex items-center justify-center mx-auto">
+        <i data-lucide="sparkles" class="w-6 h-6"></i>
+      </div>
+      <h2 class="font-serif font-bold text-2xl sm:text-3xl text-botanical-forest">
+        Permita-se viver esse momento de paz.
+      </h2>
+      <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+        Reserve seu horário com antecedência e venha recarregar as energias com quem cuida de você com amor.
+      </p>
+      <div class="pt-2">
+        <a href="https://bit.ly/49wSJlp" target="_blank" class="inline-flex items-center gap-2.5 bg-botanical-forest hover:bg-botanical-forestHover text-white font-bold text-sm px-8 py-4 rounded-full shadow-lg shadow-botanical-forest/30 transition transform hover:scale-105">
+          <i data-lucide="message-circle" class="w-5 h-5"></i>
+          <span>Agendar Sessão no WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-botanical-dark text-slate-400 text-xs py-8 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <p class="text-white font-bold font-serif text-base">Rafaela Galvão — Estética & Massoterapia</p>
+        <p class="text-[11px] text-slate-400 mt-0.5">Paraíso do Tocantins - TO</p>
+      </div>
+      <div class="text-[11px]">
+        <p>Demonstração desenvolvida pela <strong class="text-slate-300">DLuz Digital</strong></p>
+        <p><a href="proposta.html" class="text-emerald-300 hover:underline">Ver Proposta Comercial do Site →</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
